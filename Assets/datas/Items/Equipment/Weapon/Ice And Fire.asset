@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f5df1459c470c049ad1d0ad1c4eae32, type: 3}
+  m_Name: Ice And Fire
+  m_EditorClassIdentifier: 
+  itemType: 1
+  itemName: Ice And FIre
+  icon: {fileID: 1398721256, guid: a9ca9a41598dd2e44b125928045c518f, type: 3}
+  itemID: 9baa550d68be6244f84365230440d5be
+  dropChance: 0
+  equipmentType: 0
+  itemCoolDown: 0
+  itemEffect:
+  - {fileID: 11400000, guid: d56a92bb0cd992445bb5c5f8fcd1cb36, type: 2}
+  - {fileID: 11400000, guid: 7b1b12bc2ba690147a0250167f3a43f0, type: 2}
+  itemEffectDescription: Attacks launch elemental orbs-One is the Sword of Benevolence,
+    the other the Sword of Righteousness.(Enemy drop.)
+  strength: 0
+  agility: 0
+  intelligence: 0
+  vitality: 0
+  damage: 0
+  critChance: 0
+  critPower: 0
+  maxHp: 0
+  armor: 0
+  evasion: 0
+  magicResitance: 0
+  fireDamage: 30
+  iceDamage: 32
+  lightningDamage: 0
+  craftingMaterials: []
