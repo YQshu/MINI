@@ -1,4 +1,5 @@
 using MyFramework.Event;
+using UnityEngine;
 
 /// <summary>
 /// 输入控制
@@ -27,7 +28,7 @@ public class InputSystemController : Singleton<InputSystemController>, IEventRec
     {
         if (!_isInitialized)
             return Vector2.zero;
-            
+
         return InputActions.Player.Move.ReadValue<Vector2>();
     }
 
@@ -40,6 +41,33 @@ public class InputSystemController : Singleton<InputSystemController>, IEventRec
         return _inputActions.Player.Confirm.WasPressedThisFrame();
     }
 
+    //新增：获取跳跃按键输入（按下瞬间）
+    public bool GetPlayerJumpPressed()
+    {
+        if (!_isInitialized)
+            return false;
+
+        // 注意：需要在CharacterInputAction中添加Jump动作
+        return _inputActions.Player.Jump.WasPressedThisFrame();
+    }
+
+    //新增：获取跳跃按键长按状态（用于可变跳跃高度）
+    public bool GetPlayerJumpHolding()
+    {
+        if (!_isInitialized)
+            return false;
+
+        return _inputActions.Player.Jump.IsPressed();
+    }
+
+    //新增：获取跳跃按键松开瞬间（可选）
+    public bool GetPlayerJumpReleased()
+    {
+        if (!_isInitialized)
+            return false;
+
+        return _inputActions.Player.Jump.WasReleasedThisFrame();
+    }
 
     #region 事件实现
     void OnEnable()
