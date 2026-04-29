@@ -21,8 +21,6 @@ public class GameModeManager : Singleton<GameModeManager>
     //切换游戏模式
     public void ChangeGameMode()
     {
-        EventBus.Publish(new GameModeChangeEvent(currentGameMode));
-
         if (currentGameMode == GameMode.Shadow)
         {
             currentGameMode = GameMode.Light;
@@ -31,5 +29,6 @@ public class GameModeManager : Singleton<GameModeManager>
         {
             currentGameMode = GameMode.Shadow;
         }
+        EventBus.Publish(new GameModeChangeEvent(currentGameMode));
     }
 }
