@@ -80,16 +80,19 @@
     <Compile Include="Assets\Scripts\World\WorldSwitchManager.cs" />
     <Compile Include="Assets\Scripts\UI\UI_FadeScreen.cs" />
     <Compile Include="Assets\Scripts\Skill\Character Stats.cs" />
+    <Compile Include="Assets\Assets\Samples\Super Tiled2Unity\2.3.1\Tileset Atlas (Fixing Seams with Sprite Packer V1)\SeamMaker.cs" />
     <Compile Include="Assets\Scripts\UI\UI_StatSlot.cs" />
     <Compile Include="Assets\ShockStrike\ShockStrike_Controller.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCounterAttack.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Assets\Samples\Super Tiled2Unity\2.3.1\Overhead\Sprites\MegaDad\OverheadMegaDadController.cs" />
     <Compile Include="Assets\Scripts\UI\UI_CraftWindow.cs" />
     <Compile Include="Assets\Scripts\Item and Inventrory\Effect\ItemEffect.cs" />
     <Compile Include="Assets\Scripts\Skill\Clone_Skill_Controller.cs" />
     <Compile Include="Assets\Scripts\Skill\Stats.cs" />
     <Compile Include="Assets\Scripts\Item and Inventrory\Effect\Heal Effect.cs" />
     <Compile Include="Assets\IceAndFire\IceAndFire_Contronller.cs" />
+    <Compile Include="Assets\Assets\Samples\Super Tiled2Unity\2.3.1\Tileset Atlas (Fixing Seams with Sprite Packer V2)\SeamMaker.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemySkeletonAnimationTriggers.cs" />
     <Compile Include="Assets\Scripts\UI\HeathBar_UI.cs" />
@@ -98,6 +101,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerPrimaryAttack.cs" />
     <Compile Include="Assets\Save and load\Interface Save manager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAnimationTrigger.cs" />
+    <Compile Include="Assets\Scripts\World\PushBox.cs" />
     <Compile Include="Assets\Save and load\Serializable dictionary.cs" />
     <Compile Include="Assets\Scripts\Enemy\SkeletonMoveState.cs" />
     <Compile Include="Assets\Scripts\Item and Inventrory\Effect\ThunderStrike_Effect.cs" />
@@ -118,11 +122,13 @@
     <Compile Include="Assets\Scripts\TouchWall.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillSlot.cs" />
     <Compile Include="Assets\Scripts\Player\Game Manager.cs" />
+    <Compile Include="Assets\Scripts\World\ContinuousPressurePlate2D.cs" />
     <Compile Include="Assets\Scripts\LostCurrency.cs" />
     <Compile Include="Assets\Scripts\UI\UI_ToolTip.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Item and Inventrory\Effect\Buff_Effect.cs" />
     <Compile Include="Assets\Scripts\Enemy\SkeletonAttackState.cs" />
+    <Compile Include="Assets\Scripts\World\GlobalEventgs.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemySkeleton.cs" />
     <Compile Include="Assets\Scripts\UI\UI.cs" />
     <Compile Include="Assets\Scripts\UI\UI_SkillTreeSlot.cs" />
@@ -156,6 +162,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\Assets\Samples\Super Tiled2Unity\2.3.1\Overhead\Maps\Zoria Tileset\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -165,6 +172,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -1201,10 +1209,6 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
@@ -1225,10 +1229,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Recorder.Base">
-      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Analytics">
       <HintPath>Library\ScriptAssemblies\Analytics.dll</HintPath>
       <Private>False</Private>
@@ -1241,8 +1241,12 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1271,6 +1275,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Services.Analytics">
@@ -1347,6 +1355,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="SuperTiled2UnityEditor.csproj">
+      <Project>{4AEE0072-1C7A-C688-C0A1-C989CD3BF27F}</Project>
+      <Name>SuperTiled2UnityEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="SuperTiled2Unity.csproj">
+      <Project>{200A5080-C38B-BCE0-2FB6-DC81F2B74726}</Project>
+      <Name>SuperTiled2Unity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
