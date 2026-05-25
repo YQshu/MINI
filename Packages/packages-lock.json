@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "cn.tuanjie.codely.bridge": {
+      "version": "1.0.52",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ext.nunit": "1.0.6"
+      },
+      "url": "https://packages.unity.cn"
+    },
     "com.autodesk.fbx": {
       "version": "4.2.1",
       "depth": 2,
@@ -246,6 +255,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.cn"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.14.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.cn"
     },
     "com.unity.mathematics": {
