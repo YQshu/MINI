@@ -99,3 +99,9 @@ InitTestScene*.unity*
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
 screenshots
+
+.codely-cli
+
+.com-unity-codely.json
+
+.codelyignore
