@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEE0072-1C7A-C688-C0A1-C989CD3BF27F}|SuperTiled2UnityEditor.csproj|d:\\unity\\unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\supertiled2unity\\packages\\com.seanba.super-tiled2unity\\editor\\settings\\st2usettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEE0072-1C7A-C688-C0A1-C989CD3BF27F}|SuperTiled2UnityEditor.csproj|solutionrelative:assets\\supertiled2unity\\packages\\com.seanba.super-tiled2unity\\editor\\settings\\st2usettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|d:\\unity\\unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|d:\\unity\\unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\world\\pushbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\pushbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|d:\\unity\\unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\world\\continuouspressureplate2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\continuouspressureplate2d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\world\\globaleventgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world\\globaleventgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +43,88 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ST2USettings.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\SuperTiled2Unity\\Packages\\com.seanba.super-tiled2unity\\Editor\\Settings\\ST2USettings.cs",
-              "RelativeDocumentMoniker": "Assets\\SuperTiled2Unity\\Packages\\com.seanba.super-tiled2unity\\Editor\\Settings\\ST2USettings.cs",
-              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\SuperTiled2Unity\\Packages\\com.seanba.super-tiled2unity\\Editor\\Settings\\ST2USettings.cs",
-              "RelativeToolTip": "Assets\\SuperTiled2Unity\\Packages\\com.seanba.super-tiled2unity\\Editor\\Settings\\ST2USettings.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAApwDwAAABkAAAAAAAAAA==",
+              "Title": "\u987A\u5E8F\u673A\u5173.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T10:10:56.369Z",
+              "WhenOpened": "2026-05-25T09:27:39.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PushBox.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\PushBox.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\PushBox.cs",
-              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\PushBox.cs",
-              "RelativeToolTip": "Assets\\Scripts\\World\\PushBox.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "\u9650\u65F6\u673A\u5173.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwEgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:57:34.397Z",
+              "WhenOpened": "2026-05-25T09:23:41.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ContinuousPressurePlate2D.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\ContinuousPressurePlate2D.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\ContinuousPressurePlate2D.cs",
-              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\ContinuousPressurePlate2D.cs",
-              "RelativeToolTip": "Assets\\Scripts\\World\\ContinuousPressurePlate2D.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBkAAAAdAAAAAAAAAA==",
+              "Title": "\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwIIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:45:02.004Z"
+              "WhenOpened": "2026-05-25T09:10:07.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T09:02:07.429Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GlobalEventgs.cs",
-              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\GlobalEventgs.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\World\\GlobalEventgs.cs",
-              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\World\\GlobalEventgs.cs",
-              "RelativeToolTip": "Assets\\Scripts\\World\\GlobalEventgs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Title": "\u624B\u52A8\u5F00\u5173.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T09:43:46.386Z"
+              "WhenOpened": "2026-05-25T08:50:23.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T08:30:53.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u6301\u7EED\u538B\u529B\u677F.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T07:58:07.856Z"
             }
           ]
         }
