@@ -19,6 +19,9 @@ public class ManualSwitch2D : MonoBehaviour
             isActivated = true;
             OnSwitchActivated?.Invoke();
 
+            var popup = GetComponent<InfoPopup>();
+            if (popup != null) popup.Dismiss();
+
             // 可选：添加开关拨动动画
             transform.Rotate(0, 0, 90f);
         }

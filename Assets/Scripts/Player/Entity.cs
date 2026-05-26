@@ -6,6 +6,11 @@ public class Entity : MonoBehaviour
     public Rigidbody2D rb { get; private set; }
     public StateMachine stateMachine { get; private set; }
 
+    [Header("Health info")]
+    [SerializeField] protected int maxHealth = 100;
+    public int currentHealth { get; protected set; }
+    public bool isDead { get; protected set; }
+
     [Header("Collision info")]
     [SerializeField] protected LayerMask whatIsGround;
     [SerializeField] protected float groundCheckDistance = 0.3f;
@@ -25,6 +30,25 @@ public class Entity : MonoBehaviour
 
     protected virtual void Start()
     {
+        currentHealth = maxHealth;
+    }
+
+    public virtual void TakeDamage(int damage)
+    {
+        if (isDead) return;
+
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Die();
+        }
+    }
+
+    public virtual void Die()
+    {
+        isDead = true;
     }
 
     protected virtual void Update()
