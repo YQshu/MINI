@@ -6,6 +6,14 @@ public class WorldSwitchObject : MonoBehaviour
     public bool startVisible = true;
 
     private bool isVisible;
+    private SpriteRenderer sr;
+    private Collider2D col;
+
+    private void Awake()
+    {
+        sr = GetComponent<SpriteRenderer>();
+        col = GetComponent<Collider2D>();
+    }
 
     private void Start()
     {
@@ -24,13 +32,7 @@ public class WorldSwitchObject : MonoBehaviour
 
     private void ApplyVisibility()
     {
-        var renderers = GetComponentsInChildren<Renderer>(true);
-        var colliders = GetComponentsInChildren<Collider2D>(true);
-
-        foreach (var r in renderers)
-            r.enabled = isVisible;
-
-        foreach (var c in colliders)
-            c.enabled = isVisible;
+        if (sr != null) sr.enabled = isVisible;
+        if (col != null) col.enabled = isVisible;
     }
 }

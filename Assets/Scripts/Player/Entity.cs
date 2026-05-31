@@ -7,7 +7,7 @@ public class Entity : MonoBehaviour
     public StateMachine stateMachine { get; private set; }
 
     [Header("Health info")]
-    [SerializeField] protected int maxHealth = 100;
+    [SerializeField] public int maxHealth = 100;
     public int currentHealth { get; protected set; }
     public bool isDead { get; protected set; }
 
@@ -74,6 +74,16 @@ public class Entity : MonoBehaviour
 
     public void SetVelocity(float xVelocity, float yVelocity)
     {
+        // Prevent wall sticking: if player is pressing into a wall, zero out horizontal velocity
+        if (wallDetected && Mathf.Abs(xVelocity) > 0.01f)
+        {
+            float inputDir = Mathf.Sign(xVelocity);
+            if (Mathf.Approximately(inputDir, facingDir))
+            {
+                xVelocity = 0f;
+            }
+        }
+
         rb.velocity = new Vector2(xVelocity, yVelocity);
         HandleFlip(xVelocity);
     }

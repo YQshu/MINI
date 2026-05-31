@@ -15,6 +15,7 @@ public class Player : Entity
     public Player_HurtState hurtState { get; private set; }
     public Player_DeadState deadState { get; private set; }
     public Player_CollectState collectState { get; private set; }
+    public Player_InteractState interactState { get; private set; }
     #endregion
 
     #region 移动相关参数
@@ -39,12 +40,16 @@ public class Player : Entity
         hurtState = new Player_HurtState(this, stateMachine, "Hurt");
         deadState = new Player_DeadState(this, stateMachine, "Dead");
         collectState = new Player_CollectState(this, stateMachine, "Collect");
+        interactState = new Player_InteractState(this, stateMachine, "Interact");
     }
 
     protected override void Start()
     {
         base.Start();
         stateMachine.Initialize(idleState);
+
+        if (CheckpointSaveManager.Instance != null && CheckpointSaveManager.Instance.HasSavedPosition)
+            transform.position = CheckpointSaveManager.Instance.LastRespawnPosition;
     }
 
     private void OnEnable()
@@ -53,14 +58,34 @@ public class Player : Entity
 
         input.Player.Move.performed += ctx => moveInput = ctx.ReadValue<Vector2>();
         input.Player.Move.canceled += ctx => moveInput = Vector2.zero;
+        input.Player.Interact.performed += OnInteractPerformed;
     }
 
     private void OnDisable()
     {
+        input.Player.Interact.performed -= OnInteractPerformed;
         input.Disable();
     }
 
+    private void OnInteractPerformed(UnityEngine.InputSystem.InputAction.CallbackContext ctx)
+    {
+        // Handled by LevelTransitionPortal via direct input check
+    }
+
     public Vector2 respawnPosition { get; set; }
+
+    public Vector2 portalTargetPosition { get; set; }
+
+    [Header("Collect Info")]
+    public int collectedCoins = 0;
+    public int totalCoins = 6;
+
+    public void AddCoin()
+    {
+        collectedCoins++;
+        if (collectedCoins > totalCoins)
+            collectedCoins = totalCoins;
+    }
 
     #region 受伤逻辑
     [Header("Hurt details")]
@@ -81,4 +106,10 @@ public class Player : Entity
             stateMachine.ChangeState(hurtState);
     }
     #endregion
+
+    public void Respawn()
+    {
+        currentHealth = maxHealth;
+        isDead = false;
+    }
 }

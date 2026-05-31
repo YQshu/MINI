@@ -15,6 +15,7 @@ public class Collectible : MonoBehaviour
             var player = FindObjectOfType<Player>();
             if (player != null)
             {
+                player.AddCoin();
                 player.stateMachine.ChangeState(player.collectState);
 
                 GetComponent<Collider2D>().enabled = false;

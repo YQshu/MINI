@@ -8,6 +8,17 @@ public class Checkpoint : MonoBehaviour
 
     private bool isActivated = false;
 
+    private void Start()
+    {
+        if (CheckpointSaveManager.Instance != null && CheckpointSaveManager.Instance.IsActivated(checkpointId))
+        {
+            isActivated = true;
+            var sr = GetComponent<SpriteRenderer>();
+            if (sr != null)
+                sr.color = Color.green;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (isActivated || !other.CompareTag(playerTag)) return;
@@ -21,7 +32,6 @@ public class Checkpoint : MonoBehaviour
 
         CheckpointSaveManager.Instance?.ActivateCheckpoint(checkpointId, transform.position);
 
-        // Visual feedback: change color to green
         var sr = GetComponent<SpriteRenderer>();
         if (sr != null)
             sr.color = Color.green;
