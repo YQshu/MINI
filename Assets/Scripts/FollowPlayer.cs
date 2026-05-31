@@ -16,9 +16,11 @@ public class FollowPlayer : MonoBehaviour
     {
         if (player == null) return;
 
-        Vector3 target = player.position + offset;
-        target.z = transform.position.z;
-        target.y = transform.position.y;
-        transform.position = Vector3.Lerp(transform.position, target, followSpeed * Time.deltaTime);
+        // 只跟随 X 轴！！！Y 和 Z 永远保持背景自己的位置，不随玩家动
+        Vector3 targetPos = transform.position;
+        targetPos.x = player.position.x + offset.x; // 只改左右方向
+
+        // 平滑跟随
+        transform.position = Vector3.Lerp(transform.position, targetPos, followSpeed * Time.deltaTime);
     }
 }

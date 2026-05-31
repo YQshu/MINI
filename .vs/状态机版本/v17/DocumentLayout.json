@@ -7,7 +7,19 @@
       "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\graphics\\china 1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|d:\\unity\\unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\settingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\settingsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\worldswitchobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\worldswitchobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\assets\\scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2142BEB0-5651-613F-F54F-2009BEB437D2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -66,8 +78,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingsUI.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\SettingsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SettingsUI.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\SettingsUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SettingsUI.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAFwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T12:37:09.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorldSwitchObject.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\WorldSwitchObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\WorldSwitchObject.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\WorldSwitchObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\WorldSwitchObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T11:52:58.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FollowPlayer.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\FollowPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FollowPlayer.cs",
+              "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\FollowPlayer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FollowPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T10:56:26.14Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -76,14 +124,14 @@
               "RelativeDocumentMoniker": "Assets\\Graphics\\China 1.txt",
               "ToolTip": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Graphics\\China 1.txt",
               "RelativeToolTip": "Assets\\Graphics\\China 1.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2026-05-31T07:40:26.634Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs",
@@ -91,12 +139,11 @@
               "RelativeToolTip": "Assets\\Scripts\\\u673A\u5173\\\u7269\u54C1\u663E\u73B0\u6D88\u5931.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAADgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-31T06:48:38.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-31T06:48:38.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Collectible.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectible.cs",
@@ -108,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "InfoPopup.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\InfoPopup.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\InfoPopup.cs",
@@ -120,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Trap.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\Trap.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Trap.cs",
@@ -132,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Entity.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\Player\\Entity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Entity.cs",
@@ -144,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\Player\\PlayerState\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\Player.cs",
@@ -156,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "\u987A\u5E8F\u673A\u5173.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u987A\u5E8F\u673A\u5173.cs",
@@ -168,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "\u9650\u65F6\u673A\u5173.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u673A\u5173.cs",
@@ -180,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9650\u65F6\u89E6\u53D1\u673A\u5173.cs",
@@ -192,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u8E29\u8E0F\u5F71\u5B50\u578B\u673A\u5173.cs",
@@ -204,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "\u624B\u52A8\u5F00\u5173.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u624B\u52A8\u5F00\u5173.cs",
@@ -216,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u9501\u5B9A\u578B\u538B\u529B\u677F.cs",
@@ -228,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "\u6301\u7EED\u538B\u529B\u677F.cs",
               "DocumentMoniker": "D:\\Unity\\Unity project\\\u72B6\u6001\u673A\u7248\u672C\\Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\\u673A\u5173\\\u6301\u7EED\u538B\u529B\u677F.cs",

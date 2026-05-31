@@ -83,6 +83,16 @@ public class SettingsUI : MonoBehaviour
     {
         if (CheckpointSaveManager.Instance != null)
             CheckpointSaveManager.Instance.ClearSave();
+
+        CloseSettings();
+
+        if (player != null)
+        {
+            player.collectedCoins = 0;
+            player.Respawn();
+            player.transform.position = new Vector2(-35.5950012f, -82.9309998f);
+            player.stateMachine.ChangeState(player.idleState);
+        }
     }
 
     private void OnQuitGameClicked()
